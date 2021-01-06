@@ -747,6 +747,10 @@
 
 	@media screen and (max-width: 980px) {
 
+		.thumbnails a {
+			cursor: pointer;
+		}
+
 		.row > * {
 			padding: 0 0 0 2em;
 		}
@@ -961,6 +965,10 @@
 	}
 
 	@media screen and (max-width: 736px) {
+
+		.thumbnails a {
+			cursor: pointer;
+		}
 
 		.row > * {
 			padding: 0 0 0 2em;
@@ -1177,6 +1185,10 @@
 
 	@media screen and (max-width: 480px) {
 
+		.thumbnails a {
+			cursor: pointer;
+		}
+		
 		.row > * {
 			padding: 0 0 0 2em;
 		}
@@ -2371,6 +2383,10 @@
 			button,
 			.button {
 				padding: 0;
+			}
+
+			.thumbnails a {
+				cursor: pointer;
 			}
 
 		}

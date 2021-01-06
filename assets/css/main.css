@@ -1752,6 +1752,7 @@
 			text-decoration: none;
 			color: rgba(255, 255, 255, 0.65);
 			cursor: pointer;
+			pointer-events: none;
 			display: inline-block;
 			font-size: 1em;
 			font-weight: 200;
@@ -1914,13 +1915,11 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-		pointer-events: none;
 	}
 
 		.image img {
 			border-radius: 4px;
 			display: block;
-			
 		}
 
 		.image.left, .image.right {
@@ -2084,8 +2083,6 @@
 
 			@media screen and (max-width: 480px) {
 
-				pointer-events: none;
-
 				ul.actions {
 					margin: 0 0 2em 0;
 				}
@@ -2222,6 +2219,7 @@
 		border: 0;
 		color: !important;
 		cursor: pointer;
+		pointer-events: none;
 		display: inline-block;
 		font-weight: 200;
 		height: 2.85em;
@@ -2406,6 +2404,7 @@
 			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
 			background-color: rgba(255, 255, 255, 0.075);
 			cursor: pointer;
+			pointer-events: none;
 			outline: 0;
 			overflow: hidden;
 		}
@@ -2445,8 +2444,6 @@
 
 		@media screen and (max-width: 1280px) {
 
-			pointer-events: none;
-
 			.thumbnails {
 				margin: 0 0 2em -1.5em;
 			}
@@ -2463,8 +2460,6 @@
 
 		@media screen and (max-width: 980px) {
 
-			pointer-events: none;
-			
 			.thumbnails h3 {
 				font-size: 0.8em;
 			}
